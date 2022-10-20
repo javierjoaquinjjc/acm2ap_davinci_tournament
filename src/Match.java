@@ -8,6 +8,8 @@ public class Match {
     private int markerLocal;
     private int markerVisitant;
 
+
+
     Match(String location, Date date) {
         this.setMarkerLocal(0);
         this.setMarkerVisitant(0);
