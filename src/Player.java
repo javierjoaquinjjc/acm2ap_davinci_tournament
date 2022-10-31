@@ -8,13 +8,14 @@ public class Player {
 
     Player(){
         this.setMatchCounter(0);
-        this.setgoalCounter(0);
+        this.setGoalCounter(0);
     }
 
-    Playerr (String name){
+    Player(String name, int goalCounter, String position){
         this.setName(name);
         this.setMatchCounter(0);
         this.setGoalCounter(0);
+        this.setPosition(name);
 
     }
 

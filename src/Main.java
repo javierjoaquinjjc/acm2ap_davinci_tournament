@@ -5,10 +5,10 @@ public class Main {
         System.out.println("Da Vinci Tournament");
         String lugarDelParcial = new String("Aula 116, Da Vinci");
 
-        Season torneoDaVinci = new Season();   //creamos torneo
+        Season torneoDaVinci = new Season("final");   //creamos torneo
         Date fechaPosibleParcial = new Date(2022,8,28); //creamos fecha
 
-        Match primerParcial = new Match(lugarDelParcial, fechaPosibleParcial);     // creamos partido
+        Match primerPartial = new Match(lugarDelParcial, fechaPosibleParcial);     // creamos partido
 
         TeamSeason profesoresPOO = new TeamSeason( "Profes POO");
         TeamSeason estudiantesFC = new TeamSeason( "Estudiantes FC");
@@ -19,8 +19,8 @@ public class Main {
         estudiantesFC.setPosition(0);
 
 
-        primerParcial.setLocalTeam(profesoresPOO);
-        primerParcial.setVisitantTeam(estudiantesFC);
+        primerPartial.setLocalTeam(profesoresPOO);
+        primerPartial.setVisitantTeam(estudiantesFC);
 
     }
 }
